@@ -6,26 +6,6 @@
 
 https://www.bilibili.com/video/BV11e411i7Xx/
 
-作者 **技术爬爬虾** 全网同名，转载请注明作者
-
-## Part1 构建画爱心为可执行程序
-Fork本项目
-
-构架Windows 可执行程序:
-Actions-->画爱心Windows版-->run work flow-->结束后查看结果
--->Artifacts-->下载love_heart
-
-构架Ubuntu 可执行程序:
-Actions-->画爱心Ubuntu版-->run work flow-->结束后查看结果
--->Artifacts-->下载love_heart
-
-构架MacOS 可执行程序:
-Actions-->画爱心MacOS版-->run work flow-->结束后查看结果
--->Artifacts-->下载love_heart
-
-
-## Part2 天气推送
-
 ### 申请公众号测试账户
 
 使用微信扫码即可
@@ -63,15 +43,3 @@ Fork本项目
 进入自己项目的Action  ----> 天气预报推送 ---> weather_report.yml --> 修改cron表达式的执行时间
 <img width="503" alt="image" src="https://github.com/tech-shrimp/GithubActionSample/assets/154193368/badcc0fa-def5-428f-9238-fa6b549baefc">
 
-## Part3 签到薅羊毛
-Fork本项目
-网页上打开：www.jd.com/ 再按F12打开控制台，再点击切换模式，切换到手机模式，刷新一下页面。如图所示
-![image](https://github.com/tech-shrimp/GithubActionSample/assets/154193368/44d01795-8c1e-4a56-bb0e-a36f74062dcb)
-在网络->m.jd.com找到Cookie
-
-<img width="935" alt="image" src="https://github.com/tech-shrimp/GithubActionSample/assets/154193368/97139add-a410-4e73-82d3-055c8136ed57">
-
-将其填入  Settings  ----> Secrets and variables ---> Actions --> New repository secret -->新增JD_COOKIE
-<img width="685" alt="image" src="https://github.com/tech-shrimp/GithubActionSample/assets/154193368/e28ee156-642a-4c25-94ff-d42af072aa15">
-
-进入自己项目的Action  ----> 签到薅羊毛 ---> daily_sign.yml --> 修改cron表达式的执行时间
